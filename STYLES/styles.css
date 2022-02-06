@@ -7,7 +7,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 
 }
-.wrapper, .porfolio{
+.wrapper{
     width: 100vw;
     height: 100vh;
     background-color: #191c32;
@@ -82,6 +82,7 @@ span {
     margin-top: 10px;
     cursor: pointer;
     box-shadow: 1px 3px 11px -5px rgba(102, 231, 200 , .69) ;
+    text-align: center;
 }
 
 .download-cv:hover{
@@ -130,6 +131,12 @@ span {
     margin-bottom: 1em;
 }
 
+.porfolio{
+    width: 100vw;
+    background-color: #191c32;
+    color:#fff;
+}
+
 .portfolio-headings{
     width: 100vw;
     padding: 5em;
@@ -148,9 +155,10 @@ span {
 }
 
 .card{
-    width: 300px;
-    height: 370px;
+    width: 500px;
+    color: #fff;
     background-color: rgb(28, 71, 128);
+    margin: 1rem;
 }
 
 .card_img{
@@ -162,6 +170,12 @@ span {
 
 .card_title{
     padding: 20px;
+    text-align: center;
+}
+.card_title h2{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .card_projects-links{
     display: flex;
@@ -181,7 +195,7 @@ span {
     margin: 0 auto;
     margin: 1em;
     width: 70%;
-    display: flex;
+
 }
 
 .card .project_details a{
@@ -195,4 +209,14 @@ span {
     width: 100%;
     justify-content: center;
     margin-top: 1em ;
+}
+
+.contact-section img{
+    opacity: .2;
+    width: 650px;
+}
+
+.contact-section{
+    background-color: #191c32;
+    color: white;
 }
